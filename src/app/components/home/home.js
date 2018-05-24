@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Fold from "pawjs/src/components/fold";
-import ReactLogo from "src/resources/images/reactjs.svg";
+import PrefaceLogo from "src/resources/images/preface.svg";
 import SmallImage from "src/resources/images/mario-large.png?sizes=100w+200w+400w+800w&placeholder";
 import Picture from "pawjs/src/components/picture/picture";
 
@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="mt-4">
-        <img style={{ maxWidth: "150px" }} className="img-fluid mx-auto d-block" src={ReactLogo} alt="ReactJS"/>
+        <img style={{ maxWidth: "150px" }} className="img-fluid mx-auto d-block" src={PrefaceLogo} alt="ReactJS"/>
         <h1 className="h2 text-center mt-3">React PWA</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
