@@ -1,2 +1,2 @@
-<!-- Love react-pwa? Please consider supporting our collective:
-👉  https://opencollective.com/react-pwa/donate -->
+<!-- Love open source? Please consider supporting prominent collectives:
+👉  https://opencollective.com/ -->
