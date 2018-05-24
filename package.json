@@ -1,24 +1,24 @@
 {
-  "name": "ReactPWA",
-  "version": "0.3.0",
-  "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
+  "name": "Preface",
+  "version": "0.0.1",
+  "description": "A tool supplementing Facebook friend requests with intro messages.",
   "scripts": {
     "start": "pawjs start",
     "build": "pawjs build",
     "lint": "pawjs lint",
     "test": "pawjs test",
-    "docker:dev:image": "NODE_ENV=development pawjs docker build -t react-pwa .",
-    "docker:dev:start": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 react-pwa",
-    "docker:dev:lint": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 react-pwa npm run lint",
-    "docker:dev:test": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 react-pwa npm run test",
-    "docker:prod:build": "docker run -it -v \"$PWD/src\":\"/app/src\" -v \"$PWD/dist\":\"/app/dist\" react-pwa npm run build",
-    "docker:prod:image": "npm run docker:dev:image && npm run docker:prod:build && NODE_ENV=production pawjs docker build -t react-pwa-prod .",
-    "docker:prod:start": "docker run -it -p 3003:3003 react-pwa-prod"
+    "docker:dev:image": "NODE_ENV=development pawjs docker build -t preface-pwa .",
+    "docker:dev:start": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 preface-pwa",
+    "docker:dev:lint": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 preface-pwa npm run lint",
+    "docker:dev:test": "docker run -it -v \"$PWD/src\":\"/app/src\" -p 3003:3003 preface-pwa npm run test",
+    "docker:prod:build": "docker run -it -v \"$PWD/src\":\"/app/src\" -v \"$PWD/dist\":\"/app/dist\" preface-pwa npm run build",
+    "docker:prod:image": "npm run docker:dev:image && npm run docker:prod:build && NODE_ENV=production pawjs docker build -t preface-pwa-prod .",
+    "docker:prod:start": "docker run -it -p 3003:3003 preface-pwa-prod"
   },
   "author": {
-    "name": "Atyantik Technologies Private Limited",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
+    "name": "Preface Plc",
+    "email": "oleksiy.rudenko@gmail.com",
+    "url": "https://oleksiyrudenko.github.io/"
   },
   "license": "MIT",
   "babel": {
